@@ -31,8 +31,8 @@ Including EEG, EOG, Chin EMG, and event
 &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;&emsp;  **Table 1: Number of examples used in training**<br />
 &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;<img src="Dataset.png">
 <br /><br />
-&emsp;  &emsp;  &emsp;<img src="loss vs val_loss.png"> &emsp;  &emsp;  &emsp;&emsp; <img src="accuracy1.png"><br />
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Figure 3: Loss Visulization with Epochs** &emsp;&emsp;&emsp; &emsp;&emsp; &emsp; &emsp;**Figure 4: Accuracy Visulization with Epochs**<br />
+&emsp; <img src="loss vs val_loss.png"> &emsp;  &emsp; <img src="accuracy1.png"><br />
+&emsp;&emsp;**Figure 3: Loss Visulization with Epochs** &emsp;&emsp;&emsp; **Figure 4: Accuracy Visulization with Epochs**<br />
 <br /><br />
 &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp; &emsp;  &emsp;&emsp;<img src="accuracy.png"><br />
 &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp; &emsp;  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Figure 5: Performance of Training**<br /><br />
