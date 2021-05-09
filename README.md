@@ -4,6 +4,7 @@ Automatic sleep stage classification based on single channel EEG using compresse
 
 **Database to use:** Sleep-EDF expanded database, (if possible) MASS.
 
-**Technology to use:** Comvolutional neural network(for source model development) Deep Transfer Learning (for finetune to target domain)
+**Technology to use:**  Comvolutional neural network(for source model development), 
+                        Deep Transfer Learning (for finetune to target domain)
 
 **Platforms:** MATLAB (for data preparation), Python3, TensorFlow 2 for network training and evaluation, NumPy, SciPy, sklearn, h5py, etc. 
