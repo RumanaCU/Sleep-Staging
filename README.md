@@ -35,10 +35,10 @@ Including EEG, EOG, Chin<br />
 &emsp; <img src="loss vs val_loss.png"> &emsp; <img src="accuracy1.png"><br />
 &emsp;&emsp;&emsp;&emsp;**Figure 3: Loss Visulization with Epochs** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Figure 4: Accuracy Visulization with Epochs**<br />
 <br /><br />
-&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp; &emsp;  &emsp;&emsp;<img src="accuracy.png"><br />
-&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp; &emsp;  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Figure 5: Performance of Training**<br /><br />
+&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  <img src="accuracy.png"><br />
+&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp; &emsp;  &emsp;&emsp;&emsp;&emsp;**Figure 5: Performance of Training**<br /><br />
 &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;&emsp;<img src="Graph1.png"><br />
-&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Figure 6: Visualization of Performance Factors**<br /><br />
+&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Figure 6: Visualization of Performance Factors**<br /><br />
 **(2) Fine tune Model:** For fine tuning the base model, I could preprocessed the data set in Matlab only. I couldn't finish embedding the base model into finetuning model. However, after finetuning the visualization should be as Figure 7 (the visualization is taken from base paper). I expect to increase the performance about 3% for all the factors as my base model (accuracy for single chennel EEG is about 86%+) gave me better performance from base models(DeepSleepNet+: accuracy for single chennel EEG is 84.3% and SeqSleepNet+: accuracy for single chennel EEG is 84.5%) used in the original paper.
 <br /><br />
 &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;&emsp;<img src="transfer.png"><br />
