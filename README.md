@@ -22,3 +22,6 @@ Automatic sleep stage classification based on single channel EEG using compresse
      &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp; &emsp;  &emsp; &emsp;  &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp;**Figure 2: Layers of Base Model**
 <br /><br />
 **Result Analysis of Base Model:** The base model is trained for 30 epochs with pre-processed sleep data set. In one training no filtering is applied and the other is trained with filtered data by **Butterworth filtering** function. For the both training I got above 85% accuracy with F1 score 78. My analysis is the second training accuracy would be higher than the first one if 100 epochs could be finished. The loss was used **categorical_crossentropy** and the optimizer is **adam** in both training session.
+<br /><br />
+<img src="loss vs val_loss.png">
+<br /><br />
