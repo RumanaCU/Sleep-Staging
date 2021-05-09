@@ -2,7 +2,11 @@
 # Sleep-Staging
 Automatic sleep stage classification based on single channel EEG using compressed/distributed DL model to use in an edge device with limited resources
 
-**Database to use:** Sleep-EDF expanded database, (if possible) MASS.
+**Database to use:** -Sleep-EDF expanded database(base model) <br /> 
+&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp; **Description:** 197 whole-night Polysomnographic sleep recordings, 
+Including EEG, EOG, Chin EMG, and event 
+<br />&emsp;  &emsp; &emsp;  &emsp; &emsp;&emsp;  &emsp;markers.
+<br />&emsp;  &emsp; &emsp;  &emsp; &emsp;&emsp;  &emsp;-Sleep-EDF dataset(target model).
 
 **Technology to use:**  Convolutional neural network(for source model development), <br />
                         &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;Deep Transfer Learning (for finetune to target domain) <br />
