@@ -13,4 +13,7 @@ Automatic sleep stage classification based on single channel EEG using compresse
 <br />
 <img src="work process.png">
 <br />
-**Work Done Under the Project:**  Cirrently, I have trained the base model with sleep-edfx data set. The base model contains ten 1 dimentional convolution layers and five maxpolling layers alongwith fully connected layers. The fully connected layer is connected to the 5 classes of sleep stages.
+**Work Done Under the Project:**  Cirrently, I have trained the base model with sleep-edfx data set. The base model contains ten 1-dimentional convolution layers and five maxpolling layers alongwith fully connected layers. The fully connected layer is connected to the 5 classes of sleep stages. The layers of base model is shown in figure below.
+<br />
+<img src="New model.png">
+<br />
