@@ -28,8 +28,8 @@ Including EEG, EOG, Chin EMG, and event
 <br /><br />
 **Result Analysis of Base Model:** The base model is trained for 30 epochs with pre-processed sleep data set. In Table 1, the number of examples are given used in the training. In one training no filtering is applied and the other is trained with filtered data by **Butterworth filtering** function (20 epochs done). For the both training I got above 85% accuracy with F1 score 78. My analysis is the second training accuracy would be higher than the first one if 100 epochs could be finished. The loss was used **categorical_crossentropy** and the optimizer is **adam** in both training session. The loss and validation loss with epochs is shown in Figure 3 (training 1) and the accuracy and validation accuracy with epochs is shown in Figure 4 (training 2). The performance of training is shown in Figure 5 and the visualization is shown in Figure 6. The labels clarification for visualization is 0->1, 1->2, 2->3, 3->4, 4->5. [Note: The LibreOffice Calc change the numbers even I gave it in correct sequence].
 <br /><br />
-&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp;**Table 1: Number of examples used in training**<br />
-&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;  &emsp;  &emsp;<img src="Dataset.png">
+&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;&emsp;  **Table 1: Number of examples used in training**<br />
+&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;&emsp;&emsp;<img src="Dataset.png">
 <br /><br />
 &emsp;  &emsp;  &emsp;<img src="loss vs val_loss.png"> &emsp;  &emsp;  &emsp;&emsp; <img src="accuracy1.png"><br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Figure 3: Loss Visulization with Epochs** &emsp;&emsp;&emsp; &emsp;&emsp; &emsp; &emsp;**Figure 4: Accuracy Visulization with Epochs**<br />
