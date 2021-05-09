@@ -10,5 +10,6 @@ Automatic sleep stage classification based on single channel EEG using compresse
 **Platforms:** MATLAB (for data preparation), Python3, TensorFlow 2 for network training and evaluation, NumPy, SciPy, sklearn, h5py, etc. 
 
 **Description of Project:**  In this project, two main tasks are included. First one is developing and training a base model that would be used as a pretrained model later into anoher domain. And the second one is to fine tune the trained model into the target domain. A target domain could be a device with less memory or other less CPU configuration. 
+<img src="work process.png">
 
 **Description of Project:**  In this project, two main tasks are included. First one is developing and training a base model that would be used as a pretrained model later into anoher domain. And the second one is to fine tune the trained model into the target domain. A target domain could be a device with less memory or other less CPU configuration. 
