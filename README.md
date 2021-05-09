@@ -11,7 +11,7 @@ Automatic sleep stage classification based on single channel EEG using compresse
 
 **Description of Project:**  In this project, two main tasks are included. First one is developing and training a base model with a big data set that would be used as a pretrained model later into target domain. And the second one is to fine tune the trained model with a same type different small data set into the target domain. A target domain could be a device with less memory or other less CPU configuration. 
 <br />
-   &emsp;    &emsp;  &emsp;  &emsp;  &emsp;&emsp; &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;<img src="work process.png">
+   &emsp;  &emsp;  &emsp;&emsp; &emsp;  &emsp;  &emsp;&emsp;  &emsp;  &emsp;<img src="work process.png">
 <br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;**Figure 1: Basic Idea of the Project** <br />
 <br />
